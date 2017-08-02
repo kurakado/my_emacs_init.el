@@ -1,1 +1,1 @@
-# my_emacs_initel_for_go
+# my_emacs_init.el
