@@ -1,6 +1,5 @@
-;;(global-unset-key "M-ESC ESC")
 
-;;(global-unset-key "\M-ESC ESC")
+;;start python init.el
 (require 'py-autopep8)
 (setq py-autopep8-options '("--max-line-length=200"))
 (setq flycheck-flake8-maximum-line-length 200)

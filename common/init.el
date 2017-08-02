@@ -1,3 +1,5 @@
+
+;;start common init.el
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
@@ -7,6 +9,7 @@
 (global-set-key (kbd "C-x <up>")    'windmove-up)
 (global-set-key (kbd "C-x <down>")  'windmove-down)
 
-;;(global-unset-key "M-ESC ESC")
+(global-set-key (kbd "M-ESC ESC") 'keyboard-quit)
 
-;;(global-unset-key "\M-ESC ESC")
+;;バックアップファイルの保存場所を指定
+(setq backup-directory-alist '((".*" . "~/.emacs_history")))
