@@ -1,0 +1,1 @@
+# my_emacs_initel_for_go
