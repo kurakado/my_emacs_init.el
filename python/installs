@@ -1,0 +1,10 @@
+## emacs M-x package-list
+
+python-mode
+py-autopep8
+flymake-cursor
+flymake-python-pyflakes
+
+## pip
+
+sudo pip install pyflakes jedi epc autopep8
